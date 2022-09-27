@@ -36,6 +36,7 @@ $(document).ready(function () {
   });
 
 
+
   let mobileMenu = $('.mobile-menu');
   let mobileBt = $('.all-menu');
   mobileBt.click(function (event) {
@@ -490,10 +491,8 @@ window.onload = function () {
 
   let newsBottomIdx = 0;
 
-  // 탭 메뉴 클릭시 내용 보여주기
   $.each(newsBottomMenu, function (index, item) {
     $(this).click(function (event) {
-      // href 막기
       event.preventDefault();
       newsBottomMenu.removeClass('news-bottom-menu-active');
       $(this).addClass('news-bottom-menu-active');
