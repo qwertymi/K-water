@@ -2146,6 +2146,7 @@ body {
 
 .job-center .title-wrap {
   width: 100%;
+  margin-top: 100px;
 }
 
 .job-right {
@@ -2166,6 +2167,8 @@ body {
   transform: translateY(-50%);
   width: calc(100% - 40px);
   height: 400px;
+
+  margin-top: 100px;
 }
 
 .job-left-link {
