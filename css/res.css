@@ -1049,6 +1049,7 @@
   }
 
   .job-center .title-wrap {
+    margin-top: 0%;
     margin-bottom: 140px;
   }
 
@@ -1060,7 +1061,9 @@
     margin-top: 20px;
     margin-bottom: 40px;
   }
-
+  .job .inner .contents-wrap {
+    margin-top: 0;
+  }
   .job-box {
     position: relative;
     left: 0;
